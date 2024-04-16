@@ -1,3 +1,4 @@
+$$$
 A Terraform script which spins up three different Azure Windows VMs and dependent services.
 The tradeoff of this template is that it creates three VMs with different configurations at a time. Only single VM resource block is declared in the main.tf (virtualMachines.tf) file and rest configurations are declared in virtualMachines.tfvars file.
 
